@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#4d2464"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" 
+        android:textColor="#fff"
+        android:text="Verified!"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="false"
+        android:layout_marginTop="200dp"
+        android:textSize="32sp"
+        android:id="@+id/text"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/text"
+        android:id="@+id/no_deals"
+        android:layout_centerHorizontal="true"
+        android:text="ABC"
+        android:textColor="#fff"/>
+    
+    <ImageView
+        android:layout_centerHorizontal="true"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:src="@drawable/tickk"
+        android:id="@+id/imagee"
+        android:layout_below="@+id/no_deals"
+        android:layout_marginTop="10dp"
+        android:scaleType="centerCrop"/>
+
+</RelativeLayout>
